@@ -1,0 +1,1 @@
+The google homepage project from the oding project. This project will help me learn basic HTML and CSS with some git commands and github experience. It's my second project from the oding project.
