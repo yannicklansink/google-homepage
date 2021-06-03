@@ -1,0 +1,46 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 30%;
+}   
+
+form {
+    text-align: center;      
+}
+
+input[type=text]{
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(107, 89, 95, 0.1);
+}
+
+input:hover {
+    box-shadow: 0px 0px 5px 0.5px rgba(107, 89, 95, 0.3);
+}
+input:focus {
+    box-shadow: 0px 0px 5px 0.5px rgba(107, 89, 95, 0.3);
+}
+
+.button_two {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    border-radius: 5px;    
+    background-color: rgba(107, 89, 95, 0.1);
+    padding: 10px;
+    border: none;
+}
+
+.other {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
