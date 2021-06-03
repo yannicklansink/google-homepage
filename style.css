@@ -1,3 +1,10 @@
+
+html, body {
+    margin: 0;
+    height: 100%; 
+    overflow: hidden;    
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -43,4 +50,83 @@ button {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;    
+
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 10px;  
+}
+
+.loginbutton {
+    text-align: center;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(81, 130, 221);
+    overflow: hidden;
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation_class {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    margin-top: 150px;
+    padding: 3px;
+    background-color: rgba(107, 89, 95, 0.1);
+    height: 500px;
+}
+
+.nl {
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.footer-content h3 {
+    font-size: 14px;
+    color:rgba(46, 40, 42, 0.5);
+    padding-left: 25px;
+}
+
+.footer-content .neutraal {
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+    
+}
+
+.footer-nav ul li {
+    color: rgba(46, 40, 42, 0.5);
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+
+    
 }
